@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Pongsakorn Semsuwan
 tagline:          'Newbie programmer'
-description:      'Newbie programmer who sometimes like to play music and games.'
+description:      'Newbie programmer.'
 url:              http://pongsakornsemsuwan.github.io
 baseurl:          /
 
