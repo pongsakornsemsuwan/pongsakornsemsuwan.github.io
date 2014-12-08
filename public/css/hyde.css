@@ -46,6 +46,10 @@ html {
   }
 }
 
+body .wrapper {
+  width:860px;
+  margin:0 auto;
+}
 
 /*
  * Sidebar
