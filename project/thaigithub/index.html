@@ -1,0 +1,37 @@
+---
+layout: app
+title: คนไทยใน GitHub
+---
+<style>
+#container ul li {
+  height:64px;
+  list-style-type:none;
+  margin-bottom:20px;
+}
+
+#container ul li span {
+  margin-left:20px;
+}
+
+#container ul li:hover{
+  background-color:#F8F8F8;
+}
+
+#container ul a:hover{
+  text-decoration:none;
+}
+</style>
+<div class="description" style="margin-bottom:30px;">
+Simple app that lists top 100 GitHub users that are living in Thailand, ordered by follower count.<br/><br/>
+Note that there's an API limit which will allow only 5 call per minutes. So if you see blank page, simply hit refresh until something shows up.<br/>
+<a href="https://developer.github.com/v3/search/#rate-limit">About Rate limit</a>.<br/><br/>
+
+We can get more info for users such as real name, follower count but that require me to register this app as an OAuth app on GitHub which I'm too lazy to do.
+</div>
+<div id="container">
+
+
+
+</div>
+
+<script src="/js/thaigithub.js"></script>
