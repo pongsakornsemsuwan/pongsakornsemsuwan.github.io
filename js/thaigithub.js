@@ -1,10 +1,6 @@
 function callAPI(){
 
   $.getJSON('https://api.github.com/search/users?q=location:Thailand+sort:followers&per_page=100', function(data) {
-    alert(typeof data);
-    //var json = JSON.parse(data);
-    alert(data.total_count);
-
 
     var html = '<ul>';
     $.each(data.items, function(i,item){
