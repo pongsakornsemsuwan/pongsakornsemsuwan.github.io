@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Pongsakorn Semsuwan
 tagline:          'Newbie programmer'
-description:      'Newbie programmer'
+description:      'Hi there! I'm a newbie programmer living in Thailand. Been working on Java for a few years and currently working on learning Javascript and Node.js.'
 url:              http://pongsakornsemsuwan.github.io
 baseurl:          /
 
