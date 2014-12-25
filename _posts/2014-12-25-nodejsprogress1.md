@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Node.js leaning progress 1 - Basic stuff + Locomotive
+title: Node.js learning progress 1 - Basic stuff + Locomotive
 ---
 
 ### Merry Christmas!  
