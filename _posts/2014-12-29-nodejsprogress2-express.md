@@ -18,7 +18,7 @@ From what I see, express is pretty simple and minimal, the only thing that I fee
 
 Here's how my directories looks like now.
 
-![Structure]({{ site.baseurl }}public/images/express_structure.jpg)
+![Structure](/img/express_structure.jpg)
 
 Admittedly, this is not the best structure. Later I might consider creating a new directory and put 'views','model','service' there but I'll just leave if like this for now.
 
