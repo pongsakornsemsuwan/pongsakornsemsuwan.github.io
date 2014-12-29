@@ -20,11 +20,11 @@ Here's how my directories looks like now.
 
 ![Structure](/img/express_structure.jpg)
 
-Admittedly, this is not the best structure. Later I might consider creating a new directory and put 'views','model','service' there but I'll just leave if like this for now.
+Admittedly, this is not the best structure. Later I might consider creating a new directory and put views, model, service directories there but I'll just leave them like this for now.
 
 You can see the demo [here](http://drdave.herokuapp.com). It's not working yet, still need to implement Angular.js. and since Angular is on the edge of change, I'm considering waiting for Angular 2.0.
 
-Next thing on my mind while I wait for new Angular is [Mongoose](http://mongoosejs.com/). Give me
+Next thing I want to have a look is [Mongoose](http://mongoosejs.com/). Perhaps I'll use it to store chord progressions for dictionary page.
 
 
 ### Node.js pitfall #1
