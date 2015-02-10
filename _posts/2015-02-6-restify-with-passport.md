@@ -38,7 +38,7 @@ var passport = require('passport');
 var BasicStrategy = require('passport-http').BasicStrategy;
 var user = require('./user.js');
 
-passport.use(new BasicStrategy( 
+passport.use(new BasicStrategy(
   function(username, password, done) {;
     if (username.valueOf() === 'validusername' &&
       password.valueOf() === 'validpassword')
