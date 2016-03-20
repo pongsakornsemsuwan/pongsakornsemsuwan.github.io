@@ -1,10 +1,9 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown:         redcarpet
+#highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Pongsakorn Semsuwan
@@ -26,3 +25,5 @@ github:
   repo:           https://github.com/pongsakornsemsuwan
 
 facebookurl:         https://www.facebook.com/pongsakorn.semsuwan
+
+gems: [jekyll-paginate]

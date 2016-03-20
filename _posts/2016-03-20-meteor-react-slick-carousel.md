@@ -35,9 +35,9 @@ this browserify will make the `require('modulename')` things work on client side
 Let's create a file name */lib/app.browserify.js* -- the browserify.js suffix is required. Then put this code in it.
 
 {% highlight javascript %}
-	//app.browserify.js
-  //we do not required 'react' here because we will use meteor version
-	Slider = require('react-slick');
+//app.browserify.js
+//we do not required 'react' here because we will use meteor version
+Slider = require('react-slick');
 {% endhighlight %}
 
 This will make Slider available in global scope so you can use it in your react component.
@@ -67,7 +67,7 @@ To solve this, we need to use npm package `externalify`. Go run `npm install ext
         }
       }
     }
-{% highlight json %}
+{% endhighlight %}
 
 This is a browserify *transformer* which will transfer 'react' and 'react-dom' require to use meteor's react version. This will solve *you have multiple copies of React loaded* error.
 
